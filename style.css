@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffe4ec;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* NAVBAR */
+nav {
+  background: #ff8fab;
+  padding: 10px;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* CARD */
+.card {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* PRODUK */
+.produk-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.produk {
+  width: 200px;
+}
+
+.produk img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* FORM */
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #ff8fab;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff5c8a;
+}
